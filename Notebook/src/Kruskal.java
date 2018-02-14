@@ -7,6 +7,7 @@ public class Kruskal {
 
 	ArrayList<int[]> kruskal(ArrayList<Integer>[] lAdy, final double[][] mAdy){
 		initSet(lAdy.length);
+		
 		int c = 0;
 		for(ArrayList<Integer> l:lAdy)
 			c+=l.size();
